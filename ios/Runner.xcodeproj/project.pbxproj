@@ -350,8 +350,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				KONAN_ENABLE_OPTIMIZATIONS = NO;
 				KONAN_TASK = "";
-				"KONAN_TASK[sdk=iphoneos*]" = compileKonanKotlinArithmeticParserIos_arm64;
-				"KONAN_TASK[sdk=iphonesimulator*]" = compileKonanKotlinArithmeticParserIos_x64;
+				"KONAN_TASK[sdk=iphoneos*]" = compileKonanKotlinNativeIphone;
+				"KONAN_TASK[sdk=iphonesimulator*]" = compileKonanKotlinNativeIphone_sim;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.bluego.KotlinNative;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -390,8 +390,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				KONAN_ENABLE_OPTIMIZATIONS = YES;
 				KONAN_TASK = "";
-				"KONAN_TASK[sdk=iphoneos*]" = compileKonanKotlinArithmeticParserIos_arm64;
-				"KONAN_TASK[sdk=iphonesimulator*]" = compileKonanKotlinArithmeticParserIos_x64;
+				"KONAN_TASK[sdk=iphoneos*]" = compileKonanKotlinNativeIphone_sim;
+				"KONAN_TASK[sdk=iphonesimulator*]" = compileKonanKotlinNativeIphone_sim;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.bluego.KotlinNative;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
