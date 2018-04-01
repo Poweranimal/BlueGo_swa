@@ -1,5 +1,7 @@
 apply plugin: 'konan'
 
+konan.targets = ['iphone', 'iphone_sim']
+
 konanArtifacts {
     library('native') {
         enableMultiplatform true
