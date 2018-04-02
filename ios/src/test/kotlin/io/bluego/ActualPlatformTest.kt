@@ -1,5 +1,5 @@
 import kotlin.test.*
-import io.bluego.Platform
+import io.bluego.common.Platform
 
 class ActualPlatformTest {
     @Test
