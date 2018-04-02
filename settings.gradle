@@ -1,9 +1,14 @@
 rootProject.name = 'bluego_swa'
 
-include 'android', 'android:app'
-include 'ios'
 include 'common'
 include 'common-jvm'
+
+if (INCLUDE_ANDROID == "true") {
+    include 'android', 'android:app'
+}
+if (INCLUDE_IOS == "true") {
+    include 'ios'
+}
 
 //edited
 //def flutterProjectRoot = rootProject.projectDir.parentFile.toPath()
