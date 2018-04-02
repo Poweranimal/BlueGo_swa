@@ -6,10 +6,12 @@ konanArtifacts {
 
     framework('KotlinNative') {
         enableMultiplatform true
+        srcDir 'src/main/kotlin'
     }
 
     library('native') {
         enableMultiplatform true
+        srcDir 'src/main/kotlin'
     }
 
     program('native-test') {
