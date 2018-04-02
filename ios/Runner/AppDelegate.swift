@@ -1,5 +1,6 @@
 import UIKit
 import Flutter
+import KotlinNative
 
 @UIApplicationMain
 @objc class AppDelegate: FlutterAppDelegate {
@@ -8,6 +9,9 @@ import Flutter
     didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?
   ) -> Bool {
     GeneratedPluginRegistrant.register(with: self)
+    
+    NSLog(KotlinNativeCommon().platform())
+    
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
 }
