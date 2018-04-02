@@ -1,7 +1,6 @@
 rootProject.name = 'bluego_swa'
 
 include 'common'
-include 'common-jvm'
 
 if (INCLUDE_ANDROID == "true") {
     include 'android', 'android:app'

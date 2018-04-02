@@ -2,7 +2,7 @@ package io.bluego.bluegoswa
 
 import android.os.Bundle
 import android.util.Log
-import io.bluego.Common
+import io.bluego.common.Common
 import io.flutter.app.FlutterActivity
 import io.flutter.plugins.GeneratedPluginRegistrant
 

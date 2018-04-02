@@ -1,6 +1,6 @@
 package io.bluego
 
-import kotlin.test.*
+import kotlin.test.common.*
 
 class CommonTest {
     @Test

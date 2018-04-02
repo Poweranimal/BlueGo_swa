@@ -1,4 +1,4 @@
-package io.bluego
+package io.bluego.common
 // This code is common across all backends
 class Common {
     fun common(): String = "common"
