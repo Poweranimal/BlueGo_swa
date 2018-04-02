@@ -4,7 +4,6 @@ include 'android', 'android:app'
 include 'ios'
 include 'common'
 include 'common-jvm'
-include 'common-native'
 
 //edited
 //def flutterProjectRoot = rootProject.projectDir.parentFile.toPath()
